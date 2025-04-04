@@ -60,12 +60,11 @@ If you are interested in citing the work, please cite our paper:
 
 .. code-block:: bibtex
 
-   @misc{hu2024structuredrandommodelfast,
-      title={Structured Random Model for Fast and Robust Phase Retrieval}, 
-      author={Zhiyuan Hu and Julián Tachella and Michael Unser and Jonathan Dong},
-      year={2024},
-      eprint={2409.05734},
-      archivePrefix={arXiv},
-      primaryClass={physics.optics},
-      url={https://arxiv.org/abs/2409.05734}, 
-    }
+   @inproceedings{hu2025structured,
+     title={Structured Random Model for Fast and Robust Phase Retrieval},
+     author={Hu, Zhiyuan and Tachella, Juli{\'a}n and Unser, Michael and Dong, Jonathan},
+     booktitle={ICASSP 2025-2025 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)},
+     pages={1--5},
+     year={2025},
+     organization={IEEE}
+   }
