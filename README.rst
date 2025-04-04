@@ -21,12 +21,15 @@ Getting Started
    
    .. code-block:: bash
 
-      git clone https://github.com/zhiyhucode/structured_random_phase_retrieval.git
-      cd structured_random_phase_retrieval
+      git clone https://github.com/zhiyhucode/structured-random-phase-retrieval.git
+      cd structured-random-phase-retrieval
 
 2. Install the required dependencies:
    
-   To install the dependencies, we kindly ask you to refer to the `deepinv documentation <https://deepinv.github.io/deepinv/>`_.
+   1. Install `uv <https://docs.astral.sh/uv/getting-started/installation/>`;
+   1. Run ``uv sync`` under the root directory of the project;
+   1. Optionally, run ``uv pip install --no-build-isolation fast-hadamard-transform``, if you have a GPU;
+   1. Activate the environment using ``source .venv/bin/activate``;
 
 3. Navigate to the scripts directory to generate data, e.g.:
    
