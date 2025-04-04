@@ -26,10 +26,13 @@ Getting Started
 
 2. Install the required dependencies:
    
-   1. Install `uv <https://docs.astral.sh/uv/getting-started/installation/>`;
-   1. Run ``uv sync`` under the root directory of the project;
-   1. Optionally, run ``uv pip install --no-build-isolation fast-hadamard-transform``, if you have a GPU;
-   1. Activate the environment using ``source .venv/bin/activate``;
+   1. Install `uv <https://docs.astral.sh/uv/getting-started/installation/>`_;
+
+   2. Run ``uv sync`` under the root directory of the project;
+
+   3. Optionally, run ``uv pip install --no-build-isolation fast-hadamard-transform``, if you have a GPU;
+
+   4. Activate the environment using ``source .venv/bin/activate``;
 
 3. Navigate to the scripts directory to generate data, e.g.:
    
