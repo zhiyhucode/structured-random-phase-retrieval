@@ -1,7 +1,9 @@
 Structured Random Model for Fast and Robust Phase Retrieval
 ===========================================================
 
-This repository contains the source code for the paper submission "Structured Random Model for Fast and Robust Phase Retrieval" to ICASSP2025.
+Source code for the paper "`Structured Random Model for Fast and Robust Phase Retrieval <https://ieeexplore.ieee.org/document/10889235>`_" at ICASSP2025.
+
+**Update:** A more complete study on the structured random model has been released. Please check out the new paper "`Structured Random Models for Phase Retrieval with Optical Diffusers <https://arxiv.org/abs/2510.14490>`_" with `code <git@github.com:zhiyhucode/structured-random-phase-retrieval-v2.git>`_!
 
 Overview
 --------
@@ -11,8 +13,8 @@ Our work presents a novel model for phase retrieval, offering both speed and rob
 Repository Structure
 --------------------
 
-- ``experimental/paper/scripts/``: Contains scripts for data generation
-- ``experimental/paper/notebooks/``: Includes Jupyter notebooks for figure generation
+- ``src/``: Contains source code for the structured random phase retrieval model
+- ``experiment``: Contains scripts to reproduce experiments and figures from the paper
 
 Getting Started
 ---------------
@@ -30,18 +32,16 @@ Getting Started
 
    2. Run ``uv sync`` under the root directory of the project;
 
-   3. Optionally, run ``uv pip install --no-build-isolation fast-hadamard-transform``, if you have a GPU;
-
-   4. Activate the environment using ``source .venv/bin/activate``;
+   3. Activate the environment using ``source .venv/bin/activate``;
 
 3. Navigate to the scripts directory to generate data, e.g.:
    
    .. code-block:: bash
 
-      cd experimental/paper/scripts
-      python pseudorandom_spectral.py
+      cd experiment
+      python struct_spec.py
 
-4. Use the notebooks in ``experimental/paper/notebooks/`` to reproduce the figures from the paper.
+4. Use the notebook ``experiment/visualization.ipynb`` to reproduce the figures from the paper.
 
 Contributing
 ------------
@@ -56,7 +56,7 @@ This project is licensed under the BSD 3-Clause License - see the ``LICENSE`` fi
 Citation
 --------
 
-If you are interested in citing the work, please cite our paper:
+If you find this work useful, please cite our paper:
 
 .. code-block:: bibtex
 

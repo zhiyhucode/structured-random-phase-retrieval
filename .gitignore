@@ -32,7 +32,7 @@ deepinv/version.py
 /saved_models/
 .venv
 build
-deepinv.egg-info
+*.egg-info
 dist
 datasets
 wandb/

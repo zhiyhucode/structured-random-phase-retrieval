@@ -3,10 +3,9 @@ requires = ["setuptools>=61.2"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "deepinv"
-authors = [{name="Julian Tachella", email="tachellajulian@gmail.com"}]
+name = "structured-random-phase-retrieval"
+authors = [{name="Zhiyuan Hu", email="zhiyuan.hu@epfl.ch"}]
 license = {text = "BSD 3-Clause"}
-description = "Pytorch library for solving inverse problems with deep learning"
 classifiers = [
     "Development Status :: 4 - Beta",
     "Intended Audience :: Developers",
@@ -34,6 +33,7 @@ dependencies = [
     "natsort",
     "pandas>=2.2.3",
     "seaborn>=0.13.2",
+    "deepinv>=0.2.2",
 ]
 
 [tool.setuptools]
@@ -45,11 +45,6 @@ find = { where = ["."] }
 [project.readme]
 file = "README.rst"
 content-type = "text/x-rst"
-
-[project.urls]
-Homepage = "https://deepinv.github.io/"
-Source = "https://github.com/deepinv/deepinv"
-Tracker = "https://github.com/deepinv/deepinv/issues"
 
 [project.optional-dependencies]
 test = [
