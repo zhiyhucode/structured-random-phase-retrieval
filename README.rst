@@ -1,4 +1,4 @@
-Structured Random Model for Fast and Robust Phase Retrieval
+Structured Random Phase Retrieval
 ===========================================================
 
 Source code for the paper "`Structured Random Model for Fast and Robust Phase Retrieval <https://ieeexplore.ieee.org/document/10889235>`_" at ICASSP2025.
