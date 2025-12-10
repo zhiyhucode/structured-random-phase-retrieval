@@ -3,18 +3,18 @@ Structured Random Phase Retrieval
 
 Source code for the paper "`Structured Random Model for Fast and Robust Phase Retrieval <https://ieeexplore.ieee.org/document/10889235>`_" at ICASSP2025.
 
-**Update:** A more complete study on the structured random model has been released. Please check out the new paper "`Structured Random Models for Phase Retrieval with Optical Diffusers <https://arxiv.org/abs/2510.14490>`_" with `code <https://github.com/zhiyhucode/structured-random-phase-retrieval-v2>`_!
+**Update:** A more complete study on the structured random model has been released. Please check out our new paper "`Structured Random Models for Phase Retrieval with Optical Diffusers <https://arxiv.org/abs/2510.14490>`_" with `code <https://github.com/zhiyhucode/structured-random-phase-retrieval-v2>`_!
 
 Overview
 --------
 
-Our work presents a novel structured random model for phase retrieval, reducing computational complexity from quadratic to log-linear compared to classical random models and maintaining robust reconstructions. The implementation is based on the open-source computational imaging library `deepinv <https://deepinv.github.io/deepinv/>`_.
+The work presents a novel structured random model for phase retrieval, reducing computational complexity from quadratic to log-linear compared to classical random models and maintaining robust reconstructions. The implementation is based on the open-source computational imaging library `deepinv <https://deepinv.github.io/deepinv/>`_.
 
 Repository Structure
 --------------------
 
 - ``src/``: Contains source code for the structured random phase retrieval model
-- ``experiment``: Contains scripts to reproduce experiments and figures from the paper
+- ``experiment/``: Contains scripts to reproduce experiments and figures from the paper
 
 Getting Started
 ---------------
@@ -34,7 +34,7 @@ Getting Started
 
    3. Activate the environment using ``source .venv/bin/activate``;
 
-3. Navigate to the scripts directory to generate data, e.g.:
+3. Navigate to the experiment directory to run the scripts, e.g.:
    
    .. code-block:: bash
 
