@@ -8,7 +8,7 @@ Source code for the paper "`Structured Random Model for Fast and Robust Phase Re
 Overview
 --------
 
-The work presents a novel structured random model for phase retrieval, reducing computational complexity from quadratic to log-linear compared to classical random models and maintaining robust reconstructions. The implementation is based on the open-source computational imaging library `deepinv <https://deepinv.github.io/deepinv/>`_.
+This work presents a novel structured random model for phase retrieval, reducing computational complexity from quadratic to log-linear compared to classical random models and maintaining robust reconstructions. The implementation is based on the open-source computational imaging library `deepinv <https://deepinv.github.io/deepinv/>`_.
 
 Repository Structure
 --------------------
